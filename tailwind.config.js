@@ -14,6 +14,12 @@ export default {
       }
     },
   },
+  variants: {
+    extend: {
+      textColor: ['group-hover'],
+      backgroundColor: ['group-hover'],
+    },
+  },
   plugins: [],
 }
 
